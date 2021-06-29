@@ -1,1 +1,1 @@
-"# django-sites" 
+# django-sites
