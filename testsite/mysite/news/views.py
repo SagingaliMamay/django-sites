@@ -9,4 +9,4 @@ def index(request):
 
 
 def test(request):
-    return HttpResponse('<h1>Test page with git</h1>')
+    return HttpResponse('<h1>Test page with git. it works well</h1>')
