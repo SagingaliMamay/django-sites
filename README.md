@@ -4,3 +4,5 @@
 ### Models (creation fields of DB with differents characteristics)
 ### SQLite3 DB (creation and interaction) 
 ### Migrations
+### CRUD
+
