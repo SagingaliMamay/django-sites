@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 # creation fields of my DB
+# this is my model for fields such as:
 
 class News(models.Model):
     title = models.CharField(max_length=150)

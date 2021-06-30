@@ -124,3 +124,13 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#  #Creation of constant variables for stocking image files in db for field : news.photo
+#  #BASE_DIR is base file of my project, 'media' is a folder which will stock all images.
+#  I say to django to create 'media' folder with reference to BASE_DIR file
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# #This constant I create for upload all files from my DB
+MEDIA_URL = '/media/'
+
